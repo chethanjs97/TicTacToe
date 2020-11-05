@@ -36,9 +36,9 @@ public class TicTacToeGame {
 			}
 		}
 	}
-
+	/* UC-1 Creating Board */
 	static void createBoard() {
-		for (int index = 1; index < 10; index++) {
+		for (int index = 1; index < board.length; index++) {
 			board[index] = ' ';
 		}
 	}
