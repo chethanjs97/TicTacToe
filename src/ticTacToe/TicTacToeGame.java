@@ -19,7 +19,7 @@ public class TicTacToeGame {
 		}
 		System.out.println(player + " is player " + computer + " is computer");
 	}
-
+/* UC-2 Player Choose Letter X or O */
 	private static char selectXorO() {
 		char player = 'X';
 		Scanner scan = new Scanner(System.in);
